@@ -1,2 +1,2 @@
-FROM frappe/erpnext-worker:version-15
+FROM frappe/bench:latest
 CMD ["bench", "start"]
